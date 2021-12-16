@@ -1,0 +1,4 @@
+.place__text {
+  grid-area: text;
+  border: 1px solid red;
+}

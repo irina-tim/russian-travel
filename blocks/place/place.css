@@ -1,0 +1,9 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title link"
+    "image text";
+  gap: 48px 10px;
+  border: 1px solid purple;
+}

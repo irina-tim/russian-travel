@@ -1,0 +1,9 @@
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font: normal 18px/29.34px "Inter", Arial, sans-serif;
+}
+.place__paragraph:first-child {
+  margin-bottom: 26px;
+}
