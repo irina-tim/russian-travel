@@ -1,0 +1,10 @@
+.lead__subtitle {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font: normal 30px/36px "Inter", Arial, sans-serif;
+  width: 640px;
+  height: 72px;
+  text-align: center;
+  margin-bottom: 64px;
+}
