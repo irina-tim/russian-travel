@@ -2,4 +2,14 @@
   text-decoration: none;
   font: normal 24px/28px "Inter", Arial, sans-serif;
   color: white;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.header__lang-link:first-child {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }

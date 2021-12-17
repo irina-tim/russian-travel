@@ -4,4 +4,10 @@
   font: normal 16px/18px "Inter", Arial, sans-serif;
   margin: 0;
   padding: 0;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }

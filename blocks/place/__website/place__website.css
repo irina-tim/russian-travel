@@ -2,4 +2,10 @@
   grid-area: link;
   border: 1px solid red;
   align-self: end;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.place__website:hover {
+  opacity: 0.8;
 }
