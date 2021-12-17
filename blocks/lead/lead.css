@@ -1,9 +1,19 @@
 .lead {
-  width: 984px;
-  height: 1005px;
+  width: calc((984 / 1280) * 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid red;
-  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: calc((928 / 1024) * 100%);
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead {
+    width: 100%;
+  }
 }

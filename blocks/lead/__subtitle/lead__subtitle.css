@@ -3,8 +3,28 @@
   margin: 0;
   padding: 0;
   font: normal 30px/36px "Inter", Arial, sans-serif;
-  width: 640px;
-  height: 72px;
+  width: 60%;
   text-align: center;
   margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    width: 90%;
+    margin-bottom: 40px;
+  }
 }

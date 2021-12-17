@@ -4,5 +4,17 @@
   color: white;
   font: normal 16px/26.08px "Inter", Arial, sans-serif;
   margin-bottom: 33px;
-  width: 690px;
+  width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro__text {
+    width: 100%;
+  }
 }

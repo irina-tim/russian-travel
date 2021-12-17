@@ -1,8 +1,12 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  width: 1184px;
-  margin: 0 auto;
-  border: 1px solid green;
-  margin-bottom: 24px;
+  width: calc((1184 / 1280) * 100%);
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+  }
 }

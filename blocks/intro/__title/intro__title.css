@@ -5,3 +5,10 @@
   font: 900 54px/58px "Inter", Arial, sans-serif;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 440px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

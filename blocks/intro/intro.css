@@ -1,6 +1,22 @@
 .intro {
-  margin-bottom: 92px;
   border: 1px solid red;
-  width: 984px;
-  height: 429px;
+  width: calc((984 / 1280) * 100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc((928 / 1024) * 100%);
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .intro {
+    width: calc((720 / 768) * 100%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    width: calc((288 / 320) * 100%);
+  }
 }

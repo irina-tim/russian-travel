@@ -4,6 +4,18 @@
   grid-template-areas:
     "title link"
     "image text";
-  gap: 48px 10px;
+  gap: 48px 40px;
   border: 1px solid purple;
+}
+
+@media screen and (max-width: 750px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "link"
+      "image"
+      "text";
+    gap: 32px;
+  }
 }
