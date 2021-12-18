@@ -6,10 +6,6 @@
   transition: opacity 0.3s linear;
 }
 
-.header__lang-link:first-child {
-  text-decoration: underline;
-}
-
 .header__lang-link:hover {
   opacity: 0.8;
 }
