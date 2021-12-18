@@ -5,7 +5,6 @@
     "title link"
     "image text";
   gap: 48px 40px;
-  border: 1px solid purple;
 }
 
 @media screen and (max-width: 750px) {

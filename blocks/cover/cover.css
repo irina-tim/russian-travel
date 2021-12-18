@@ -1,5 +1,4 @@
 .cover {
-  border: 1px solid red;
   width: calc((1184 / 1280) * 100%);
   min-height: 740px;
   position: relative;
