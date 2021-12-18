@@ -8,3 +8,9 @@
 .place__website:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 550px) {
+  .place__website {
+    margin-left: 16px;
+  }
+}
