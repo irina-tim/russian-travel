@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    width: calc((730 / 768) * 100%);
+    width: calc((725 / 768) * 100%);
     gap: 73px;
   }
 }
