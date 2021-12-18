@@ -20,5 +20,6 @@
   .footer {
     flex-direction: column;
     gap: 48px;
+    width: 90%;
   }
 }
