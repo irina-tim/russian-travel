@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: calc((440 / 444) * 100%);
+    width: calc((440 / 448) * 100%);
   }
 }
 
