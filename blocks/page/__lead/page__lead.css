@@ -1,3 +1,15 @@
 .page__lead {
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 768px) {
+  .page__lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .page__lead {
+    margin-bottom: 64px;
+  }
+}

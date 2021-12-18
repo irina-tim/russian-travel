@@ -1,10 +1,37 @@
 .cover {
   border: 1px solid red;
-  padding: 0 48px;
+  width: calc((1184 / 1280) * 100%);
+  min-height: 740px;
+  position: relative;
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
-    padding: 0;
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover {
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover {
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover {
+    min-height: 200px;
   }
 }

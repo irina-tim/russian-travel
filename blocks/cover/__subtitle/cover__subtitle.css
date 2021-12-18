@@ -2,8 +2,27 @@
   font: normal 18px/22px "Inter", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: white;
-  width: 360px;
-  text-align: center;
   z-index: 3;
+  text-align: center;
+  width: calc((400 / 1280) * 100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    width: calc((400 / 1024) * 100%);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .cover__subtitle {
+    width: calc((400 / 768) * 100%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    width: calc((260 / 320) * 100%);
+  }
 }
