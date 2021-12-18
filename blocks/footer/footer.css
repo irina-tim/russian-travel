@@ -4,6 +4,18 @@
   width: calc((1184 / 1280) * 100%);
 }
 
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc((928 / 1024) * 100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc((720 / 768) * 100%);
+  }
+}
+
 @media screen and (max-width: 700px) {
   .footer {
     flex-direction: column;
