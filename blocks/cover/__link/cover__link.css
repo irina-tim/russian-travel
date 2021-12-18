@@ -11,6 +11,8 @@
   background-size: cover;
   background-position: center;
   position: absolute;
+  margin: 0;
+  padding: 0;
 }
 
 .cover__link::before {
