@@ -2,6 +2,7 @@
   width: calc((1184 / 1280) * 100%);
   min-height: 740px;
   position: relative;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1184px) {
