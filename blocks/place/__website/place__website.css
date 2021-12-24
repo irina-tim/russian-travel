@@ -1,12 +1,6 @@
 .place__website {
   grid-area: link;
   align-self: end;
-  opacity: 1;
-  transition: opacity 0.3s linear;
-}
-
-.place__website:hover {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 550px) {
